@@ -1,19 +1,19 @@
-1- t?o tài kho?n trên github
+1- t?o tÃ i kho?n trÃªn github
 2- t?o m?t kho luu tr? m?i (repository)
-	+ t?o tên cho repository
-	+ mô t? cho kho luu tr?
-3- t?o 1 folder dùng cmd tr? d?n folder dó
-4- dùng l?nh 
+	+ t?o tÃªn cho repository
+	+ mÃ´ t? cho kho luu tr?
+3- t?o 1 folder dÃ¹ng cmd tr? d?n folder dÃ³
+4- dÃ¹ng l?nh 
 	echo "# git-guide" >> README.md
 	git init
 	git add README.md
 	git commit -m "first commit"
 	git remote add origin https://github.com/vdvirtue/git-guide.git
 	git push -u origin master
-5- mu?n clone t? trên github v? thì dùng l?nh
-	git clone https://github.com/vdvirtue/js-demo.git (du?ng d?n c?a repository trên github)
-6- mu?n update l?i t? thu m?c trên desktop lên github
-	git add .
+5- mu?n clone t? trÃªn github v? thÃ¬ dÃ¹ng l?nh
+	git clone https://github.com/vdvirtue/js-demo.git (du?ng d?n c?a repository trÃªn github)
+6- mu?n update l?i t? thu m?c trÃªn desktop lÃªn github
+	git add . (chÃº Ã½ cÃ³ cáº£ dáº¥u ".")
 	git commnit -m "first commit"
-	git pust origin master	
+	git pust origin master	hoáº·c ( git push origin master )
    
